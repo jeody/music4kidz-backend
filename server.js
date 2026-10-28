@@ -26,7 +26,7 @@ app.use(cookieParser());
 app.use(bodyParser.json());
 app.use(
   cors({
-    origin: ['http://localhost:3000', 'https://authz-app-nu.vercel.app'],
+    origin: ['https://music.school-ph.com'],
     credentials: true
   })
 );
